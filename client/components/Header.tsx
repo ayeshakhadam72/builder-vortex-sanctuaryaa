@@ -34,7 +34,11 @@ export default function Header() {
         {/* Right Side Icons */}
         <div className="flex items-center space-x-3">
           {/* Language Switcher */}
-          <Button variant="ghost" size="sm" className="hidden md:flex items-center space-x-1">
+          <Button
+            variant="ghost"
+            size="sm"
+            className="hidden md:flex items-center space-x-1"
+          >
             <Globe className="h-4 w-4" />
             <span className="text-sm">FR</span>
           </Button>
